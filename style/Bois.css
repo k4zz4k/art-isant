@@ -87,7 +87,7 @@
   textarea{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 70%;
     margin: auto;  
   }
 
@@ -155,5 +155,34 @@
   }
 
   @media screen and (max-width:996px){
+    .grid-peinture{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid-peinture img{
+      max-width: 600px;
+      margin: auto;
+  }
+
+  .photo-boi{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .photo-boi img{
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .form-nom-email{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+
     
+  }
   }

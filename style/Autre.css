@@ -80,7 +80,21 @@ table {
     margin-top: 20px;
   }
 
+  .info-cont a{
+    margin: auto;
+  }
+
   .info-impo{
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width:996px){
+    .info-img p{
+      font-size: 25px;
+    }
+
+    .info-cont p{
+      font-size: 25px;
+    }
   }
