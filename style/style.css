@@ -54,3 +54,9 @@ footer img{
     
 }
 
+@media screen and (max-width:996px){
+    .lien-icone img{
+        width: 80px;
+    }
+}
+

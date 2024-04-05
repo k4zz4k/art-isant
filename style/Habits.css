@@ -154,3 +154,7 @@
     max-width: 420px;
     margin: auto;
   }
+
+  @media screen and (max-width:996px){
+    
+  }

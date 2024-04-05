@@ -74,6 +74,7 @@
   
   .label{
     margin-bottom: 10px;
+    width: 500px;
   }
   
   input[type="submit"]{
@@ -87,7 +88,7 @@
   textarea{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 70%;
     margin: auto;  
   }
 
@@ -153,3 +154,34 @@
     max-width: 420px;
     margin: auto;
   }
+
+  @media screen and (max-width:996px){
+    .grid-peinture{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid-peinture img{
+      max-width: 600px;
+      margin: auto;
+  }
+
+  .photo-pei{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .photo-pei img{
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .form-nom-email{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+  }
+}
